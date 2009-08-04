@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class RandomogrifierViewController;
+@class HTTPServer;
 
 @interface RandomogrifierAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     RandomogrifierViewController *viewController;
+	HTTPServer *httpServer;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
