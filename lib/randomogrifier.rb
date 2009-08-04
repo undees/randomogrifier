@@ -20,4 +20,8 @@ class Randomogrifier
     xpath = '//UILabel[tag="%d"]/text' % NumberTag
     REXML::XPath.match(doc, xpath).first.text
   end
+
+  def seed=(seed)
+    @gui.command 'setRandomSeed', 'seed', seed
+  end
 end
