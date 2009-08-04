@@ -11,6 +11,11 @@
 @implementation RandomogrifierViewController
 
 
+- (IBAction)randomButtonPressed:(id)sender;
+{
+	[numberLabel setText:[NSString stringWithFormat:@"%d", random() % 100]];
+}
+
 
 /*
 // The designated initializer. Override to perform setup that is required before the view is loaded.

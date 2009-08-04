@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface RandomogrifierViewController : UIViewController {
-
+	IBOutlet UILabel *numberLabel;
 }
+
+- (IBAction)randomButtonPressed:(id)sender;
 
 @end
 
