@@ -6,16 +6,18 @@ class Randomogrifier
   def initialize
     @gui = Encumber::GUI.new
   end
-  
+
   def randomogrify!
-    @gui.press '//UIButton'
+    @gui.press '//UIRoundedRectButton'
   end
+
+  NumberTag = 1000
 
   def number
     xml = @gui.dump
     doc = REXML::Document.new xml
 
-    xpath = '//UILabel'
+    xpath = '//UILabel[tag="%d"]/text' % NumberTag
     REXML::XPath.match(doc, xpath).first.text
   end
 end
