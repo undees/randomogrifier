@@ -15,6 +15,31 @@
 		2899E5220DE3E06400AC0155 /* RandomogrifierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RandomogrifierViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* RandomogrifierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RandomogrifierViewController.m */; };
+		DF7B4F4B102813DD00AAEACE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DF7B4F4C102813DD00AAEACE /* RandomogrifierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* RandomogrifierViewController.xib */; };
+		DF7B4F4E102813DD00AAEACE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		DF7B4F4F102813DD00AAEACE /* RandomogrifierAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* RandomogrifierAppDelegate.m */; };
+		DF7B4F50102813DD00AAEACE /* RandomogrifierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* RandomogrifierViewController.m */; };
+		DF7B4F52102813DD00AAEACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		DF7B4F53102813DD00AAEACE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		DF7B4F54102813DD00AAEACE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		DF7B4F7F1028143B00AAEACE /* NSObject+ClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F731028143B00AAEACE /* NSObject+ClassName.m */; };
+		DF7B4F801028143B00AAEACE /* ScriptRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F751028143B00AAEACE /* ScriptRunner.m */; };
+		DF7B4F811028143B00AAEACE /* TouchSynthesis.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F771028143B00AAEACE /* TouchSynthesis.m */; };
+		DF7B4F821028143B00AAEACE /* UIApplication+XMLDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F791028143B00AAEACE /* UIApplication+XMLDescription.m */; };
+		DF7B4F831028143B00AAEACE /* UIView+XMLDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F7B1028143B00AAEACE /* UIView+XMLDescription.m */; };
+		DF7B4F841028143B00AAEACE /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F7E1028143B00AAEACE /* XPathQuery.m */; };
+		DF7B4F9C1028145F00AAEACE /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F861028145F00AAEACE /* AsyncSocket.m */; };
+		DF7B4F9F1028145F00AAEACE /* MyHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F8D1028145F00AAEACE /* MyHTTPConnection.m */; };
+		DF7B4FA01028145F00AAEACE /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F8F1028145F00AAEACE /* DDData.m */; };
+		DF7B4FA11028145F00AAEACE /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F911028145F00AAEACE /* DDNumber.m */; };
+		DF7B4FA21028145F00AAEACE /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F931028145F00AAEACE /* DDRange.m */; };
+		DF7B4FA31028145F00AAEACE /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F951028145F00AAEACE /* HTTPAuthenticationRequest.m */; };
+		DF7B4FA41028145F00AAEACE /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F971028145F00AAEACE /* HTTPConnection.m */; };
+		DF7B4FA51028145F00AAEACE /* HTTPResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F991028145F00AAEACE /* HTTPResponse.m */; };
+		DF7B4FA61028145F00AAEACE /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B4F9B1028145F00AAEACE /* HTTPServer.m */; };
+		DF7B4FA8102814F300AAEACE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B4FA7102814F300AAEACE /* CFNetwork.framework */; };
+		DF7B4FAA102814F300AAEACE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B4FA9102814F300AAEACE /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +56,41 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Randomogrifier_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Randomogrifier_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7B4F58102813DD00AAEACE /* Randomogrifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Randomogrifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7B4F5A102813DD00AAEACE /* Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info copy.plist"; sourceTree = "<group>"; };
+		DF7B4F721028143B00AAEACE /* NSObject+ClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+ClassName.h"; path = "brominet/NSObject+ClassName.h"; sourceTree = "<group>"; };
+		DF7B4F731028143B00AAEACE /* NSObject+ClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+ClassName.m"; path = "brominet/NSObject+ClassName.m"; sourceTree = "<group>"; };
+		DF7B4F741028143B00AAEACE /* ScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScriptRunner.h; path = brominet/ScriptRunner.h; sourceTree = "<group>"; };
+		DF7B4F751028143B00AAEACE /* ScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScriptRunner.m; path = brominet/ScriptRunner.m; sourceTree = "<group>"; };
+		DF7B4F761028143B00AAEACE /* TouchSynthesis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchSynthesis.h; path = brominet/TouchSynthesis.h; sourceTree = "<group>"; };
+		DF7B4F771028143B00AAEACE /* TouchSynthesis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchSynthesis.m; path = brominet/TouchSynthesis.m; sourceTree = "<group>"; };
+		DF7B4F781028143B00AAEACE /* UIApplication+XMLDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+XMLDescription.h"; path = "brominet/UIApplication+XMLDescription.h"; sourceTree = "<group>"; };
+		DF7B4F791028143B00AAEACE /* UIApplication+XMLDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+XMLDescription.m"; path = "brominet/UIApplication+XMLDescription.m"; sourceTree = "<group>"; };
+		DF7B4F7A1028143B00AAEACE /* UIView+XMLDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+XMLDescription.h"; path = "brominet/UIView+XMLDescription.h"; sourceTree = "<group>"; };
+		DF7B4F7B1028143B00AAEACE /* UIView+XMLDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMLDescription.m"; path = "brominet/UIView+XMLDescription.m"; sourceTree = "<group>"; };
+		DF7B4F7C1028143B00AAEACE /* XMLDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLDescription.h; path = brominet/XMLDescription.h; sourceTree = "<group>"; };
+		DF7B4F7D1028143B00AAEACE /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = brominet/XPathQuery.h; sourceTree = "<group>"; };
+		DF7B4F7E1028143B00AAEACE /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = brominet/XPathQuery.m; sourceTree = "<group>"; };
+		DF7B4F851028145F00AAEACE /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = cocoahttpserver/AsyncSocket.h; sourceTree = "<group>"; };
+		DF7B4F861028145F00AAEACE /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = cocoahttpserver/AsyncSocket.m; sourceTree = "<group>"; };
+		DF7B4F8C1028145F00AAEACE /* MyHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyHTTPConnection.h; sourceTree = "<group>"; };
+		DF7B4F8D1028145F00AAEACE /* MyHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyHTTPConnection.m; sourceTree = "<group>"; };
+		DF7B4F8E1028145F00AAEACE /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDData.h; path = cocoahttpserver/DDData.h; sourceTree = "<group>"; };
+		DF7B4F8F1028145F00AAEACE /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDData.m; path = cocoahttpserver/DDData.m; sourceTree = "<group>"; };
+		DF7B4F901028145F00AAEACE /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDNumber.h; path = cocoahttpserver/DDNumber.h; sourceTree = "<group>"; };
+		DF7B4F911028145F00AAEACE /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDNumber.m; path = cocoahttpserver/DDNumber.m; sourceTree = "<group>"; };
+		DF7B4F921028145F00AAEACE /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DDRange.h; path = cocoahttpserver/DDRange.h; sourceTree = "<group>"; };
+		DF7B4F931028145F00AAEACE /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DDRange.m; path = cocoahttpserver/DDRange.m; sourceTree = "<group>"; };
+		DF7B4F941028145F00AAEACE /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPAuthenticationRequest.h; path = cocoahttpserver/HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
+		DF7B4F951028145F00AAEACE /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPAuthenticationRequest.m; path = cocoahttpserver/HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
+		DF7B4F961028145F00AAEACE /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPConnection.h; path = cocoahttpserver/HTTPConnection.h; sourceTree = "<group>"; };
+		DF7B4F971028145F00AAEACE /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPConnection.m; path = cocoahttpserver/HTTPConnection.m; sourceTree = "<group>"; };
+		DF7B4F981028145F00AAEACE /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPResponse.h; path = cocoahttpserver/HTTPResponse.h; sourceTree = "<group>"; };
+		DF7B4F991028145F00AAEACE /* HTTPResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPResponse.m; path = cocoahttpserver/HTTPResponse.m; sourceTree = "<group>"; };
+		DF7B4F9A1028145F00AAEACE /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HTTPServer.h; path = cocoahttpserver/HTTPServer.h; sourceTree = "<group>"; };
+		DF7B4F9B1028145F00AAEACE /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HTTPServer.m; path = cocoahttpserver/HTTPServer.m; sourceTree = "<group>"; };
+		DF7B4FA7102814F300AAEACE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DF7B4FA9102814F300AAEACE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +101,18 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7B4F51102813DD00AAEACE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B4F52102813DD00AAEACE /* Foundation.framework in Frameworks */,
+				DF7B4F53102813DD00AAEACE /* UIKit.framework in Frameworks */,
+				DF7B4F54102813DD00AAEACE /* CoreGraphics.framework in Frameworks */,
+				DF7B4FA8102814F300AAEACE /* CFNetwork.framework in Frameworks */,
+				DF7B4FAA102814F300AAEACE /* libxml2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* Randomogrifier.app */,
+				DF7B4F58102813DD00AAEACE /* Randomogrifier.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,11 +142,15 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DF7B4F711028142700AAEACE /* Server */,
+				DF7B4F701028142000AAEACE /* Brominet */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				DF7B4FA7102814F300AAEACE /* CFNetwork.framework */,
+				DF7B4FA9102814F300AAEACE /* libxml2.dylib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -93,6 +170,7 @@
 				2899E5210DE3E06400AC0155 /* RandomogrifierViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
+				DF7B4F5A102813DD00AAEACE /* Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -105,6 +183,60 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7B4F701028142000AAEACE /* Brominet */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B4F721028143B00AAEACE /* NSObject+ClassName.h */,
+				DF7B4F731028143B00AAEACE /* NSObject+ClassName.m */,
+				DF7B4F741028143B00AAEACE /* ScriptRunner.h */,
+				DF7B4F751028143B00AAEACE /* ScriptRunner.m */,
+				DF7B4F761028143B00AAEACE /* TouchSynthesis.h */,
+				DF7B4F771028143B00AAEACE /* TouchSynthesis.m */,
+				DF7B4F781028143B00AAEACE /* UIApplication+XMLDescription.h */,
+				DF7B4F791028143B00AAEACE /* UIApplication+XMLDescription.m */,
+				DF7B4F7A1028143B00AAEACE /* UIView+XMLDescription.h */,
+				DF7B4F7B1028143B00AAEACE /* UIView+XMLDescription.m */,
+				DF7B4F7C1028143B00AAEACE /* XMLDescription.h */,
+				DF7B4F7D1028143B00AAEACE /* XPathQuery.h */,
+				DF7B4F7E1028143B00AAEACE /* XPathQuery.m */,
+			);
+			name = Brominet;
+			sourceTree = "<group>";
+		};
+		DF7B4F711028142700AAEACE /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B4F851028145F00AAEACE /* AsyncSocket.h */,
+				DF7B4F861028145F00AAEACE /* AsyncSocket.m */,
+				DF7B4F871028145F00AAEACE /* Classes */,
+				DF7B4F8E1028145F00AAEACE /* DDData.h */,
+				DF7B4F8F1028145F00AAEACE /* DDData.m */,
+				DF7B4F901028145F00AAEACE /* DDNumber.h */,
+				DF7B4F911028145F00AAEACE /* DDNumber.m */,
+				DF7B4F921028145F00AAEACE /* DDRange.h */,
+				DF7B4F931028145F00AAEACE /* DDRange.m */,
+				DF7B4F941028145F00AAEACE /* HTTPAuthenticationRequest.h */,
+				DF7B4F951028145F00AAEACE /* HTTPAuthenticationRequest.m */,
+				DF7B4F961028145F00AAEACE /* HTTPConnection.h */,
+				DF7B4F971028145F00AAEACE /* HTTPConnection.m */,
+				DF7B4F981028145F00AAEACE /* HTTPResponse.h */,
+				DF7B4F991028145F00AAEACE /* HTTPResponse.m */,
+				DF7B4F9A1028145F00AAEACE /* HTTPServer.h */,
+				DF7B4F9B1028145F00AAEACE /* HTTPServer.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		DF7B4F871028145F00AAEACE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B4F8C1028145F00AAEACE /* MyHTTPConnection.h */,
+				DF7B4F8D1028145F00AAEACE /* MyHTTPConnection.m */,
+			);
+			name = Classes;
+			path = cocoahttpserver/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +259,23 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* Randomogrifier.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DF7B4F49102813DD00AAEACE /* Brominet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7B4F55102813DD00AAEACE /* Build configuration list for PBXNativeTarget "Brominet" */;
+			buildPhases = (
+				DF7B4F4A102813DD00AAEACE /* Resources */,
+				DF7B4F4D102813DD00AAEACE /* Sources */,
+				DF7B4F51102813DD00AAEACE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brominet;
+			productName = Randomogrifier;
+			productReference = DF7B4F58102813DD00AAEACE /* Randomogrifier.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -140,6 +289,7 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* Randomogrifier */,
+				DF7B4F49102813DD00AAEACE /* Brominet */,
 			);
 		};
 /* End PBXProject section */
@@ -154,6 +304,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DF7B4F4A102813DD00AAEACE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B4F4B102813DD00AAEACE /* MainWindow.xib in Resources */,
+				DF7B4F4C102813DD00AAEACE /* RandomogrifierViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -164,6 +323,31 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* RandomogrifierAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* RandomogrifierViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7B4F4D102813DD00AAEACE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B4F4E102813DD00AAEACE /* main.m in Sources */,
+				DF7B4F4F102813DD00AAEACE /* RandomogrifierAppDelegate.m in Sources */,
+				DF7B4F50102813DD00AAEACE /* RandomogrifierViewController.m in Sources */,
+				DF7B4F7F1028143B00AAEACE /* NSObject+ClassName.m in Sources */,
+				DF7B4F801028143B00AAEACE /* ScriptRunner.m in Sources */,
+				DF7B4F811028143B00AAEACE /* TouchSynthesis.m in Sources */,
+				DF7B4F821028143B00AAEACE /* UIApplication+XMLDescription.m in Sources */,
+				DF7B4F831028143B00AAEACE /* UIView+XMLDescription.m in Sources */,
+				DF7B4F841028143B00AAEACE /* XPathQuery.m in Sources */,
+				DF7B4F9C1028145F00AAEACE /* AsyncSocket.m in Sources */,
+				DF7B4F9F1028145F00AAEACE /* MyHTTPConnection.m in Sources */,
+				DF7B4FA01028145F00AAEACE /* DDData.m in Sources */,
+				DF7B4FA11028145F00AAEACE /* DDNumber.m in Sources */,
+				DF7B4FA21028145F00AAEACE /* DDRange.m in Sources */,
+				DF7B4FA31028145F00AAEACE /* HTTPAuthenticationRequest.m in Sources */,
+				DF7B4FA41028145F00AAEACE /* HTTPConnection.m in Sources */,
+				DF7B4FA51028145F00AAEACE /* HTTPResponse.m in Sources */,
+				DF7B4FA61028145F00AAEACE /* HTTPServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +407,36 @@
 			};
 			name = Release;
 		};
+		DF7B4F56102813DD00AAEACE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Randomogrifier_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = BROMINET_ENABLED;
+				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/libxml2;
+				INFOPLIST_FILE = "/Users/undees/src/rando/Randomogrifier/Info copy.plist";
+				PRODUCT_NAME = Randomogrifier;
+			};
+			name = Debug;
+		};
+		DF7B4F57102813DD00AAEACE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Randomogrifier_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = BROMINET_ENABLED;
+				HEADER_SEARCH_PATHS = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS2.2.1.sdk/usr/include/libxml2;
+				INFOPLIST_FILE = "/Users/undees/src/rando/Randomogrifier/Info copy.plist";
+				PRODUCT_NAME = Randomogrifier;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -240,6 +454,15 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7B4F55102813DD00AAEACE /* Build configuration list for PBXNativeTarget "Brominet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7B4F56102813DD00AAEACE /* Debug */,
+				DF7B4F57102813DD00AAEACE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
