@@ -21,6 +21,15 @@
 @synthesize viewController;
 
 
+- (NSString *)setRandomSeed:(NSDictionary *)data;
+{
+	NSNumber *seed = [data objectForKey:@"seed"];
+	srandom([seed intValue]);
+	
+	return @"pass";
+}
+
+
 - (void)applicationDidFinishLaunching:(UIApplication *)application {    
     
     // Override point for customization after app launch    
